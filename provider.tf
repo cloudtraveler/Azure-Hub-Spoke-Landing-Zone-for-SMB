@@ -10,8 +10,8 @@ terraform {
 
 provider "azurerm" {
   features {}
-  # Authentication is expected via Azure CLI (az login) or ARM_* environment variables.
-  # If using a service principal, set ARM_CLIENT_ID, ARM_CLIENT_SECRET, ARM_TENANT_ID, and ARM_SUBSCRIPTION_ID.
+  # Azure 인증은 Azure CLI (az login) or ARM_* environment variables.
+  # 필요하면 ID값 환경 설정 set ARM_CLIENT_ID, ARM_CLIENT_SECRET, ARM_TENANT_ID, and ARM_SUBSCRIPTION_ID.
 
 }
 ye
