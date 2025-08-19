@@ -3,9 +3,9 @@ Azure Hub &amp; Spoke Landing Zone for Small to Medium Businesses
 
 빠른 실행 가이드
 
-1. Azure 로그인:
-   az login
-   az account set --subscription "<YOUR_SUBSCRIPTION_ID>"
+1. Azure 로그인:\n
+   az login\n
+   az account set --subscription "<YOUR_SUBSCRIPTION_ID>"\n\n
 
 
 2. Terraform 초기화/검증:   
